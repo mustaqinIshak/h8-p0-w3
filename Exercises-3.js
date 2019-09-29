@@ -7,9 +7,8 @@ var input = [
 
 function dataHandling(arr){
 var id = ""
-
     for(let i = 0; i < arr.length; i++){
-        id = id + "/n"+ "Nomor ID:  " + arr[i][0] + "\n" + "Nama Lengkap:  " + arr[i][1] + "\n" + "TTL:  " + arr[i][2] + "\n" + "Hobi:  " + arr[i][3] 
+        id = id + "Nomor ID:  " + arr[i][0] + "\n" + "Nama Lengkap:  " + arr[i][1] + "\n" + "TTL:  " + arr[i][2] + "\n" + "Hobi:  " + arr[i][3] + "\n" + "\n"
         console.log("")
               
     }
