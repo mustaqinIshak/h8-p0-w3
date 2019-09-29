@@ -71,11 +71,6 @@ function dataHandling2(arr) {
     } else {
         console.log(nama)
     }
-    
-    
-    
-
-
 }
 
 dataHandling2(input);
