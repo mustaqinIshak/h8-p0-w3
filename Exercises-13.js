@@ -8,7 +8,7 @@ function targetTerdekat(arr) {
         }
     }
     posisiX.sort()
-    if (posisiX == ''){
+    if (posisiX.length == 0){
         return 0
     } else {
         return posisiX[0]
