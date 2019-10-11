@@ -8,7 +8,7 @@ function hitungJumlahKata(kalimat) {
       result.push(arr[i])
     }
   }
-  console.log(arr)
+ 
   return result.length
 }
 
