@@ -1,24 +1,31 @@
 function mengelompokkanAngka(arr) {
     // you can only write your code here!
-    var result = [[],[],[]]
+    if(arr.length === 0){
+        return arr
+    }
+    var result = []
+    var ganjil = []
+    var genap = []
+    var kelipatanTiga = []
     for(let i = 0; i < arr.length; i++){ 
         if(arr[i] % 3 === 0){
             
-            result[2].push(arr[i])
+            kelipatanTiga.push(arr[i])
             
 
         } else if(arr[i] % 2 === 1){
 
-            result[1].push(arr[i])
+            ganjil.push(arr[i])
             
             
         } else if (arr[i] % 2 === 0) {
             
-            result[0].push(arr[i])
+            genap.push(arr[i])
             
 
         }
     }
+    result.push(genap, ganjil, kelipatanTiga)
     
     return result
 }

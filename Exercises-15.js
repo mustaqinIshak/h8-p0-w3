@@ -13,7 +13,12 @@ function groupAnimals(animals) {
       }
       
       result.push(tampung)
+      
+      
     }
+    
+    animals.splice(0, animals.length)
+  
     return result
 }
 
